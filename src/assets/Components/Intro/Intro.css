@@ -1,0 +1,52 @@
+.intro-card h1{
+    font-family: "Titan One", sans-serif;
+    font-size: 250%;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: rgb(181, 14, 70);
+}
+.intro-1 h1{
+    font-family: "Lobster", sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin-right: 40%;
+    color: white;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.shop-cart img{
+    width: 20%;
+    position: absolute;
+    top:35%;
+    left: 65%;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.intro-container{
+  background-color: rgb(8, 68, 68);
+    padding: 25%;
+}

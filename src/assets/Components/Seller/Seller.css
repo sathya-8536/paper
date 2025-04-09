@@ -1,0 +1,130 @@
+.seller-container{
+    background-color: rgb(8, 68, 68);
+    padding: 25%;  
+}
+.sel-cart h1{
+    color: rgb(231, 47, 26);
+    position: absolute;
+    top: 10%;
+    left: 31%;
+    font-size: 390%;
+}
+.sel1-cart img{
+    width: 20%;
+    position: absolute;
+    left: -30%;
+    top: -50%;
+}
+.sel1-cart h1{
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-family: "Lobster", sans-serif;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.sel2-cart img{
+    width: 18%;
+    position: absolute;
+    left: -25%;
+    top: -40%;
+}
+.sel2-cart h1{
+    position: absolute;
+    top: 55%;
+    font-family: "Lobster", sans-serif;
+    color: white;
+    margin-right: 40%;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.sel3-cart img{
+    width: 15%;
+    position: absolute;
+    left: -21%;
+    top: -40%;
+}
+.sel3-cart h1{
+    position: absolute;
+    top: 69%;
+    font-family: "Lobster", sans-serif;
+    color: white;
+    margin-right: 40%;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.sel4-cart img{
+    width: 19%;
+    position: absolute;
+    left: -27%;
+    top: -40%;
+}
+.sel4-cart h1{
+    position: absolute;
+    top: 85%;
+    font-family: "Lobster", sans-serif;
+    color: white;
+    margin-right: 40%;
+    animation: wordAnimation 1s forwards; 
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .sel-cart img{
+    width: 20%;
+    position: absolute;
+    left: 63%;
+    top: 45%;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

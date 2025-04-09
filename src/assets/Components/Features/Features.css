@@ -1,0 +1,226 @@
+
+.feat-cart h1{
+    color: orangered;
+    font-family: "Abril Fatface", serif;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    font-size: 290%;
+}
+.feat-cart h2{
+    color: orangered;
+    font-family: "Abril Fatface", serif;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 290%;
+    font-weight: bold;
+    
+}
+.feature-container{
+    background-color: rgb(8, 68, 68);
+    padding: 40%;
+}
+.pp-cart{
+    background-color: white;
+    padding: 40px;
+    border-radius: 80px;
+    position: absolute;
+    width: 60%;
+    top: 40%;
+    left: 16%;
+  
+}
+.pp-cart h1{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    font-family: "Lobster", sans-serif;
+    animation: jump 0.5s ease infinite;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.ff-cart{
+    background-color: white;
+    padding: 40px;
+    border-radius: 80px;
+    position: absolute;
+    width: 60%;
+    top: 55%;
+    left: 16%;
+}
+.ff-cart h1{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-family: "Lobster", sans-serif;
+    animation: jumpLeft 0.5s ease infinite;
+}
+
+@keyframes jumpLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-30px); /* Jump to the left */
+  }
+  100% {
+    transform: translateX(0); /* Settle back to the original position */
+  }
+}
+.mm-cart{
+    background-color: white;
+    padding: 40px;
+    border-radius: 80px;
+    position: absolute;
+    width: 60%;
+    top: 70%;
+    left: 16%;
+}
+.mm-cart h1{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-family: "Lobster", sans-serif;
+    animation: jumpRight 0.5s ease infinite;
+}
+
+@keyframes jumpRight {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-30px); /* Jump to the left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Settle back to the original position */
+  }
+}
+.oo-cart{
+    background-color: white;
+    padding: 40px;
+    border-radius: 80px;
+    position: absolute;
+    width: 60%;
+    top: 85%;
+    left: 16%;
+}
+.oo-cart h1{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-family: "Lobster", sans-serif;
+    animation: jump 0.5s ease infinite;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.ww-cart{
+    background-color: white;
+    padding: 40px;
+    border-radius: 80px;
+    position: absolute;
+    width: 60%;
+    top: 100%;
+    left: 16%;
+}
+.ww-cart h1{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-family: "Lobster", sans-serif;
+    animation: jumpLeft 0.5s ease infinite;
+}
+
+@keyframes jumpLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-30px); /* Jump to the left */
+  }
+  100% {
+    transform: translateX(0); /* Settle back to the original position */
+  }
+}
+.cc-cart{
+    background-color: white;
+    padding: 40px;
+    border-radius: 80px;
+    position: absolute;
+    width: 60%;
+    top: 115%;
+    left: 16%;
+}
+.cc-cart h1{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-family: "Lobster", sans-serif;
+    animation: jumpRight 0.5s ease infinite;
+}
+
+@keyframes jumpRight {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-30px); /* Jump to the left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Settle back to the original position */
+  }
+}
+.tt-cart{
+    background-color: white;
+    padding: 40px;
+    border-radius: 80px;
+    position: absolute;
+    width: 60%;
+    top: 130%;
+    left: 16%;
+}
+.tt-cart h1{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-family: "Lobster", sans-serif;
+    animation: jump 0.5s ease infinite;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

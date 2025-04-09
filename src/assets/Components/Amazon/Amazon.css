@@ -1,0 +1,63 @@
+.ama-ssp img{
+    width: 10%;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    background-color: white;
+    border-radius: 30px ;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.ama-c h1{
+    position: absolute;
+    top: 30%;
+    left: 46%;
+}
+.next-cart img{
+    width: 4%;
+    position: absolute;
+    top: 48%;
+    left: 90%;
+ }
+ .back-cart img{
+     width: 4%;
+    position: absolute;
+    top: 48%;
+    left: 5%;
+ }
+ .amaz-cart h1{
+    font-family: "Lobster", sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    margin-right: 20%;
+    color: white;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .amazon-container{
+    background-color: rgb(8, 68, 68);
+    padding: 25%;
+  }

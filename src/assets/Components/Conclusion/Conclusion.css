@@ -1,0 +1,32 @@
+.conclusion-container{
+    background-color: rgb(8, 68, 68);
+    padding: 25%;  
+}
+.con-cart{
+    color: rgb(231, 47, 26);
+    position: absolute;
+    top: 10%;
+    left: 34%;
+    font-size: 350%;
+}
+.con1-cart h1{
+    position: absolute;
+    top: 40%;
+    margin-right: 20%;
+    color: white;
+    font-family: "Lobster", sans-serif;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

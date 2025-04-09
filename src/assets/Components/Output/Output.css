@@ -1,0 +1,247 @@
+.nav-card{
+    background-color: white;
+    padding: 10px;
+    width: 15%;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border-radius: 30px;
+}
+.navbar-card{
+    background-color: rgb(175, 175, 203);
+    padding: 2%;
+}
+.l-card img{
+    width: 20%;
+}
+.nav-card img{
+    width: 15%;
+    position: absolute;
+    top: 10%;
+    left: 77%;
+}
+.suggestions-list{
+    position: absolute;
+    top: 220px;
+    left: 30.5%;
+    width: 11%;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+}
+.suggestions-list li:hover{
+    background: #f0f0f0;
+}
+.mega-cart{
+    position: absolute;
+    top: 172%;
+    color: red;
+}
+.time-cart{
+    position: absolute;
+    top: 172%;
+    left: 20%;
+    border-radius: 30px;
+    color:rgb(23, 21, 21)
+}
+.sh-cart img{
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    background-color: rgb(84, 80, 80);
+    border-radius: 30px;
+}
+.sh-cart h1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 180%;
+    
+}
+.sh-cart{
+    background-color: #a0d9b8;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    padding: 20px;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    padding: 160px;
+    width: 20%;
+    border-radius: 30px;
+}
+.meesho img{
+    position: absolute;
+    top: 80%;
+    left: 18%;
+}
+.image img{
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    background-color: rgb(84, 80, 80);
+    border-radius: 30px;
+}
+.image {
+    background-color: #a0d9b8;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    padding: 20px;
+    position: absolute;
+    top: 115%;
+    left: 10%;
+    padding: 160px;
+    width: 20%;
+    border-radius: 30px;
+}
+.image h1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 180%;
+    margin-right: 30%;
+}
+.image h2{
+    position: absolute;
+    top: 55%;
+}
+.dd img{
+    position: absolute;
+    top: 140%;
+    left: 17%;
+}
+.jean-cart img{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-color: #ccc;
+    border-radius: 30px;
+}
+.jean-cart {
+    background-color: #eb91bb;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    padding: 20px;
+    position: absolute;
+    top: 55%;
+    height: 11.6cm;
+    left: 55%;
+    padding: 160px;
+    width: 20%;
+    border-radius: 30px;
+}
+.jean-cart h1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 180%;
+    margin-right: 30%;
+}
+.ama-card img{
+    width: 10%;
+    position: absolute;
+    top: 120%;
+    left: 58%;
+}
+.box-cart{
+    background-color: rgb(215, 206, 206);
+    border-radius: 30px;
+    padding: 20%;
+    position: absolute;
+    top: 190%;
+    left: 10%;
+    margin-right: 90%;
+    width: 1px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+.box-cart img{
+    width: 50%;
+    position: absolute;
+    top: 10%;
+
+    left: 15%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+}
+.box-cart h1{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.box-cart h2{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-weight: bold;
+    color: red;
+}
+.box-cart h3{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    background-color: rgb(37, 158, 57);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.er-cart img{
+    position: absolute;
+    top: 253%;
+    left: 25%;
+}
+.box1-cart {
+    background-color: rgb(215, 206, 206);
+    border-radius: 30px;
+    padding: 20%;
+    position: absolute;
+    top: 190%;
+    left: 55%;
+    margin-right: 90%;
+    width: 1px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+.box1-cart img{
+    width: 40%;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    padding: 50px;
+    border-radius: 70px;
+}
+.box1-cart h1{
+    position: absolute;
+    top: 62%;
+    left: 10%;
+}
+.box1-cart h2{
+    position: absolute;
+    top: 83%;
+    left: 10%;
+    font-weight: bold;
+    color: red;
+}
+.box1-cart h3{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    background-color: rgb(37, 158, 57);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.www-cart{
+    position: absolute;
+    top: 253%;
+    left: 70%;
+}
+.cancel-cart img{
+    width: 30px;
+    position: absolute;
+    top: 2%;
+    left: 97%;
+}

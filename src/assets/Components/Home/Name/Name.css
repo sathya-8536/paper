@@ -1,0 +1,63 @@
+.name-card img{
+    position: absolute;
+    left: 39%;
+    top: 25%;
+    width: 20%;
+    border-radius: 30%;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+    
+.next-card img{
+   width: 4%;
+   position: absolute;
+   top: 48%;
+   left: 90%;
+}
+.back-card img{
+    width: 4%;
+   position: absolute;
+   top: 48%;
+   left: 5%;
+}
+.name-container{
+    background-color: rgb(8, 68, 68);
+    padding: 25%;
+}
+.cheap-cart{
+    background-color: rgb(196, 191, 191);
+    font-family: "Lobster", sans-serif;
+    padding: 10px;
+    position: absolute;
+    top: 80%;
+    left: 41%;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+  
+}
+.cheap-cart h1{
+    animation: arrangeWords 2s ease-in-out forwards;
+}
+
+@keyframes arrangeWords {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

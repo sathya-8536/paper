@@ -1,0 +1,16 @@
+.result-container{
+    background-color: rgb(8, 68, 68);
+    padding: 25%;  
+}
+.result-cart{
+    color: rgb(231, 47, 26);
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    font-size: 350%;
+}
+.btn-ssp img{
+    width: 10%;
+    position: absolute;
+    left: 43%;
+}

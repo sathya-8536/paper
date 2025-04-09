@@ -1,0 +1,93 @@
+.flip-ssp img{
+    width: 13%;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    background-color: rgb(205, 197, 197);
+    border-radius: 30px;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  /* Floating animation */
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.next-cart img{
+    width: 4%;
+    position: absolute;
+    top: 48%;
+    left: 90%;
+    animation: blink-animation 1s infinite;
+}
+
+@keyframes blink-animation {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+ .back-cart img{
+     width: 4%;
+    position: absolute;
+    top: 48%;
+    left: 5%;
+    animation: blink-animation 1s infinite;
+}
+
+@keyframes blink-animation {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+ 
+ .sss h1{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    margin-right: 10%;
+    font-family: "Lobster", sans-serif;
+    color: white;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .ssss h1{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    margin-right: 10%;
+    font-family: "Lobster", sans-serif;
+    color:white;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .flipkart-container{
+    background-color: rgb(8, 68, 68);
+    padding: 25%;
+  }

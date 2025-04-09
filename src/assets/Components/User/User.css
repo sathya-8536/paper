@@ -1,0 +1,129 @@
+.user-container{
+    background-color: rgb(8, 68, 68);
+    padding: 25%;  
+}
+.uss-cart h1{
+    color: orange;
+    position: absolute;
+    top: 10%;
+    left: 31%;
+    font-size: 390%;
+}
+.pp1-cart img{
+    width: 30%;
+    position: absolute;
+    left: -40%;
+    top: -50%;
+}
+.pp1-cart h1{
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-family: "Lobster", sans-serif;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.pp2-cart img{
+    width: 15%;
+    position: absolute;
+    left: -20%;
+    top: -19%;
+}
+.pp2-cart h1{
+    position: absolute;
+    top: 55%;
+    font-family: "Lobster", sans-serif;
+    color: white;
+    margin-right: 40%;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.pp3-cart img{
+    width: 22%;
+    position: absolute;
+    left: -30%;
+    top: -40%;
+}
+.pp3-cart h1{
+    position: absolute;
+    top: 75%;
+    font-family: "Lobster", sans-serif;
+    color: white;
+    margin-right: 40%;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.pp4-cart img{
+    width: 18%;
+    position: absolute;
+    left: -25%;
+    top: -40%;
+}
+.pp4-cart h1{
+    position: absolute;
+    top: 90%;
+    font-family: "Lobster", sans-serif;
+    color: white;
+    margin-right: 40%;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.bene-cart img{
+    width: 20%;
+    position: absolute;
+    left: 60%;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

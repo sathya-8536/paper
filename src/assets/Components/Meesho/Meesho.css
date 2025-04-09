@@ -1,0 +1,56 @@
+.mee-cart img{
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    border-radius: 30px;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  /* Floating animation */
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.word h1{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    margin-right: 10%;
+    font-family: "Lobster", sans-serif;
+    color: white;
+    animation: wordAnimation 1s forwards;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .next-cart img{
+    width: 4%;
+    position: absolute;
+    top: 48%;
+    left: 90%;
+ }
+ .back-cart img{
+     width: 4%;
+    position: absolute;
+    top: 48%;
+    left: 5%;
+ }
+ .meesho-container{
+  background-color: rgb(8, 68, 68);
+  padding: 25%;
+ }
